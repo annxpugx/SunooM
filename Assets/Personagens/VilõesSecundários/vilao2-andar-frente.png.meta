@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: ea50401dcb955e44b88631c5b8128084
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1089289969395587444
+    second: vilao2-andar-frente_0
+  - first:
+      213: -376323359592773795
+    second: vilao2-andar-frente_1
+  - first:
+      213: -8905836809549717713
+    second: vilao2-andar-frente_2
+  - first:
+      213: -3032929448851213810
+    second: vilao2-andar-frente_3
+  - first:
+      213: -3983911670531342255
+    second: vilao2-andar-frente_4
+  - first:
+      213: 390468889930954174
+    second: vilao2-andar-frente_5
+  - first:
+      213: -1340316129911761409
+    second: vilao2-andar-frente_6
+  - first:
+      213: 6434776870859784001
+    second: vilao2-andar-frente_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: vilao2-andar-frente_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 9
+        width: 168
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86a7cc4b8012e0f0800000000000000
+      internalID: -1089289969395587444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao2-andar-frente_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3
+        width: 164
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d578ac6f5e707caf0800000000000000
+      internalID: -376323359592773795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao2-andar-frente_2
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 3
+        width: 159
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fd03b5b9c186480800000000000000
+      internalID: -8905836809549717713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao2-andar-frente_3
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 3
+        width: 153
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02f6644cbed8e5d0800000000000000
+      internalID: -3032929448851213810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao2-andar-frente_4
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 9
+        width: 169
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150427d717d46b8c0800000000000000
+      internalID: -3983911670531342255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao2-andar-frente_5
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 3
+        width: 164
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5fc28f2693b6500800000000000000
+      internalID: 390468889930954174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao2-andar-frente_6
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 3
+        width: 154
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff512e5c49d366de0800000000000000
+      internalID: -1340316129911761409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao2-andar-frente_7
+      rect:
+        serializedVersion: 2
+        x: 2264
+        y: 3
+        width: 158
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f3f7c987bec4950800000000000000
+      internalID: 6434776870859784001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

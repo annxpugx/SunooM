@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 7ea1c522f47508b45a7c38a10b7be23f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1416690137494986032
+    second: lua-andar-frente_0
+  - first:
+      213: -4931973085051224225
+    second: lua-andar-frente_1
+  - first:
+      213: -1450584911563965973
+    second: lua-andar-frente_2
+  - first:
+      213: -5057170543549443331
+    second: lua-andar-frente_3
+  - first:
+      213: -1488776579342991604
+    second: lua-andar-frente_4
+  - first:
+      213: -3060141816219026901
+    second: lua-andar-frente_5
+  - first:
+      213: 8737700843320134579
+    second: lua-andar-frente_6
+  - first:
+      213: 8749761476477839832
+    second: lua-andar-frente_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lua-andar-frente_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 29
+        width: 172
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2efcd63d7e65ce0800000000000000
+      internalID: -1416690137494986032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-frente_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 29
+        width: 168
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ffbbf1c9c1e8bb0800000000000000
+      internalID: -4931973085051224225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-frente_2
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 29
+        width: 173
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be930bd55bc7edbe0800000000000000
+      internalID: -1450584911563965973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-frente_3
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 33
+        width: 167
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df29a274f2251d9b0800000000000000
+      internalID: -5057170543549443331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-frente_4
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 29
+        width: 173
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ff656c69dc65be0800000000000000
+      internalID: -1488776579342991604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-frente_5
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 29
+        width: 178
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a32f14b313885d0800000000000000
+      internalID: -3060141816219026901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-frente_6
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 29
+        width: 167
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb4ab76f9c824970800000000000000
+      internalID: 8737700843320134579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-frente_7
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 33
+        width: 163
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9ebd264b56d6970800000000000000
+      internalID: 8749761476477839832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

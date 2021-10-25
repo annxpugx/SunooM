@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: f3c55419127597a429be745310fa8b49
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2701861508374393382
+    second: lua-andar-dir_0
+  - first:
+      213: 6287316497477338584
+    second: lua-andar-dir_1
+  - first:
+      213: 832947820230516636
+    second: lua-andar-dir_2
+  - first:
+      213: -215360023091976286
+    second: lua-andar-dir_3
+  - first:
+      213: 6627307823568502300
+    second: lua-andar-dir_4
+  - first:
+      213: -8505318572001379202
+    second: lua-andar-dir_5
+  - first:
+      213: 5442721061404268178
+    second: lua-andar-dir_6
+  - first:
+      213: -6399829059549229387
+    second: lua-andar-dir_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lua-andar-dir_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 153
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622f4fe0ab0fe7520800000000000000
+      internalID: 2701861508374393382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-dir_1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 22
+        width: 157
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d50796fa09014750800000000000000
+      internalID: 6287316497477338584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-dir_2
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 27
+        width: 142
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f964d11a93f8b00800000000000000
+      internalID: 832947820230516636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-dir_3
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 27
+        width: 147
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a768c43333e20df0800000000000000
+      internalID: -215360023091976286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-dir_4
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 22
+        width: 158
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eb7f04a5de8fb50800000000000000
+      internalID: 6627307823568502300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-dir_5
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 22
+        width: 168
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c335662d907f980800000000000000
+      internalID: -8505318572001379202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-dir_6
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 22
+        width: 158
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296d984f7fd688b40800000000000000
+      internalID: 5442721061404268178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-dir_7
+      rect:
+        serializedVersion: 2
+        x: 2247
+        y: 22
+        width: 153
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be885ac06d3f27a0800000000000000
+      internalID: -6399829059549229387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

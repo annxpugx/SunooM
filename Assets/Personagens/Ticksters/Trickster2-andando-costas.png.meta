@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 6a15e2672e1e96f47ae04ed42d7317f9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2619774263322360863
+    second: Trickster2-andando-costas_0
+  - first:
+      213: -7840247838278618201
+    second: Trickster2-andando-costas_1
+  - first:
+      213: 2554706768231092403
+    second: Trickster2-andando-costas_2
+  - first:
+      213: 8629111819585218323
+    second: Trickster2-andando-costas_3
+  - first:
+      213: -213126641700717372
+    second: Trickster2-andando-costas_4
+  - first:
+      213: -8948149433519315367
+    second: Trickster2-andando-costas_5
+  - first:
+      213: -6213594156711762519
+    second: Trickster2-andando-costas_6
+  - first:
+      213: 5737334840145010257
+    second: Trickster2-andando-costas_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Trickster2-andando-costas_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 15
+        width: 123
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3c5fa0031b4abd0800000000000000
+      internalID: -2619774263322360863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-costas_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 15
+        width: 123
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3f0686128d13390800000000000000
+      internalID: -7840247838278618201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-costas_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 10
+        width: 123
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b053b13544247320800000000000000
+      internalID: 2554706768231092403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-costas_3
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 4
+        width: 123
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317608d1b73c0c770800000000000000
+      internalID: 8629111819585218323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-costas_4
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 10
+        width: 122
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccb145d272da0df0800000000000000
+      internalID: -213126641700717372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-costas_5
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 15
+        width: 122
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956e7f1ef79c1d380800000000000000
+      internalID: -8948149433519315367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-costas_6
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 10
+        width: 123
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5a0c61901e4c9a0800000000000000
+      internalID: -6213594156711762519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-costas_7
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 4
+        width: 117
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ed050b3ab1f9f40800000000000000
+      internalID: 5737334840145010257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

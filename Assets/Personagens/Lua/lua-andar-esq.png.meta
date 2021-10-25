@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 82b4bdd047f46684695f3b70e982bc78
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2899011543207851200
+    second: lua-andar-esq_0
+  - first:
+      213: 416435502046378582
+    second: lua-andar-esq_1
+  - first:
+      213: 7411968440826480114
+    second: lua-andar-esq_2
+  - first:
+      213: -5836861192142156478
+    second: lua-andar-esq_3
+  - first:
+      213: 2403426611604287992
+    second: lua-andar-esq_4
+  - first:
+      213: -2748408710383901934
+    second: lua-andar-esq_5
+  - first:
+      213: -2612647003351040156
+    second: lua-andar-esq_6
+  - first:
+      213: -2713087244317926407
+    second: lua-andar-esq_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lua-andar-esq_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 4
+        width: 168
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c439a093ab5b3820800000000000000
+      internalID: 2899011543207851200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-esq_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 10
+        width: 169
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65af55bf1e977c500800000000000000
+      internalID: 416435502046378582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-esq_2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 15
+        width: 168
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f54ed1d60a9cd660800000000000000
+      internalID: 7411968440826480114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-esq_3
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 15
+        width: 173
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d8a17bbad4ffea0800000000000000
+      internalID: -5836861192142156478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-esq_4
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 10
+        width: 178
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1f464f4cfaa5120800000000000000
+      internalID: 2403426611604287992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-esq_5
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 10
+        width: 182
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2136affe6d0bbd9d0800000000000000
+      internalID: -2748408710383901934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-esq_6
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 10
+        width: 182
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46fb5c194630ebbd0800000000000000
+      internalID: -2612647003351040156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-esq_7
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 10
+        width: 178
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb59cd968d295ad0800000000000000
+      internalID: -2713087244317926407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
