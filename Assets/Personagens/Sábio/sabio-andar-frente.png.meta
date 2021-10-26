@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 0ad391aa0f6edaf43b1b269de32f841a
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4991240153228418847
+    second: sabio-andar-frente_0
+  - first:
+      213: -8003527185907124839
+    second: sabio-andar-frente_1
+  - first:
+      213: -2102650497811355752
+    second: sabio-andar-frente_2
+  - first:
+      213: -1877312983259104271
+    second: sabio-andar-frente_3
+  - first:
+      213: -2754913026490298896
+    second: sabio-andar-frente_4
+  - first:
+      213: -8656246440038266532
+    second: sabio-andar-frente_5
+  - first:
+      213: 5251064861310790868
+    second: sabio-andar-frente_6
+  - first:
+      213: -3561741972867916203
+    second: sabio-andar-frente_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sabio-andar-frente_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 15
+        width: 153
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f98d18972744540800000000000000
+      internalID: 4991240153228418847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-frente_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 15
+        width: 153
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995f2ddcd62cde090800000000000000
+      internalID: -8003527185907124839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-frente_2
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 10
+        width: 153
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897e7273382e1d2e0800000000000000
+      internalID: -2102650497811355752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-frente_3
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 10
+        width: 148
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbbc94c9c172f5e0800000000000000
+      internalID: -1877312983259104271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-frente_4
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 10
+        width: 153
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd03f4d23594c9d0800000000000000
+      internalID: -2754913026490298896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-frente_5
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 15
+        width: 153
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59874db9b5ded780800000000000000
+      internalID: -8656246440038266532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-frente_6
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 10
+        width: 153
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc27f68ba78fd840800000000000000
+      internalID: 5251064861310790868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-frente_7
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 10
+        width: 147
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55edb9deb86229ec0800000000000000
+      internalID: -3561741972867916203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

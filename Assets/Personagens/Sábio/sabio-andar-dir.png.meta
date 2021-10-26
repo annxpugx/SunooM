@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 85036f1daa403fc4a9a0c5ca022d21c7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2974211937924996511
+    second: sabio-andar-dir_0
+  - first:
+      213: 314607764949466420
+    second: sabio-andar-dir_1
+  - first:
+      213: -4221892112564954020
+    second: sabio-andar-dir_2
+  - first:
+      213: -7749024619963576191
+    second: sabio-andar-dir_3
+  - first:
+      213: 8782460457980409799
+    second: sabio-andar-dir_4
+  - first:
+      213: -6814869189355576993
+    second: sabio-andar-dir_5
+  - first:
+      213: 4811726798550420577
+    second: sabio-andar-dir_6
+  - first:
+      213: -5056669522842087104
+    second: sabio-andar-dir_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sabio-andar-dir_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 123
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ddebedff5864920800000000000000
+      internalID: 2974211937924996511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-dir_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 12
+        width: 134
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d74696816bd5400800000000000000
+      internalID: 314607764949466420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-dir_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 8
+        width: 123
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cda8efd73d865c0800000000000000
+      internalID: -4221892112564954020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-dir_3
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 18
+        width: 147
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180905b0a2fe57490800000000000000
+      internalID: -7749024619963576191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-dir_4
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 12
+        width: 182
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c736db414191e970800000000000000
+      internalID: 8782460457980409799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-dir_5
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 12
+        width: 198
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51e4b93498bc61a0800000000000000
+      internalID: -6814869189355576993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-dir_6
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 12
+        width: 182
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c43d79700b6c240800000000000000
+      internalID: 4811726798550420577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-dir_7
+      rect:
+        serializedVersion: 2
+        x: 2234
+        y: 12
+        width: 142
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04114704cd913d9b0800000000000000
+      internalID: -5056669522842087104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 3222fe4305b909e409286d448155fc02
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4322050931957347415
+    second: sombra-andar-esq_0
+  - first:
+      213: 3277222409603433522
+    second: sombra-andar-esq_1
+  - first:
+      213: 2132483032123841818
+    second: sombra-andar-esq_2
+  - first:
+      213: 3422437650332870670
+    second: sombra-andar-esq_3
+  - first:
+      213: -6794549627970652994
+    second: sombra-andar-esq_4
+  - first:
+      213: 1817879902681998089
+    second: sombra-andar-esq_5
+  - first:
+      213: 4638422273850068348
+    second: sombra-andar-esq_6
+  - first:
+      213: -4955405205868862134
+    second: sombra-andar-esq_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sombra-andar-esq_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 12
+        width: 194
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754b6746c620bfb30800000000000000
+      internalID: 4322050931957347415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-esq_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 12
+        width: 233
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234cc560b680b7d20800000000000000
+      internalID: 3277222409603433522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-esq_2
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 12
+        width: 232
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d1a43f40a189d10800000000000000
+      internalID: 2132483032123841818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-esq_3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 12
+        width: 228
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08630ef8e0fe7f20800000000000000
+      internalID: 3422437650332870670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-esq_4
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 12
+        width: 204
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4fb08cc19e4b1a0800000000000000
+      internalID: -6794549627970652994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-esq_5
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 12
+        width: 168
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903aea3d3286a3910800000000000000
+      internalID: 1817879902681998089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-esq_6
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 12
+        width: 192
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dc71f8b7cfe5040800000000000000
+      internalID: 4638422273850068348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-esq_7
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 12
+        width: 218
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45a01a583dda3bb0800000000000000
+      internalID: -4955405205868862134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

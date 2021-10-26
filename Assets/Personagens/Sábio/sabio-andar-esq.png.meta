@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: e00e088600998984ab0d78d4550e65d3
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3928226710052949563
+    second: sabio-andar-esq_0
+  - first:
+      213: 2994434609742480572
+    second: sabio-andar-esq_1
+  - first:
+      213: -6501897561435756091
+    second: sabio-andar-esq_2
+  - first:
+      213: 5648335170201559155
+    second: sabio-andar-esq_3
+  - first:
+      213: 932432242086033389
+    second: sabio-andar-esq_4
+  - first:
+      213: -3508259058042820797
+    second: sabio-andar-esq_5
+  - first:
+      213: 6951232195855837473
+    second: sabio-andar-esq_6
+  - first:
+      213: 5294854080134894235
+    second: sabio-andar-esq_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sabio-andar-esq_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5
+        width: 124
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e48e1516dd38630800000000000000
+      internalID: 3928226710052949563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-esq_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 10
+        width: 133
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb406d0996e5e8920800000000000000
+      internalID: 2994434609742480572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-esq_2
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 5
+        width: 124
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9a4accd9e94c5a0800000000000000
+      internalID: -6501897561435756091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-esq_3
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 16
+        width: 148
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370a53049eae26e40800000000000000
+      internalID: 5648335170201559155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-esq_4
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 10
+        width: 183
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7b8a61f2aa0fc00800000000000000
+      internalID: 932432242086033389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-esq_5
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 10
+        width: 198
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347af4969f8205fc0800000000000000
+      internalID: -3508259058042820797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-esq_6
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 10
+        width: 183
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ee395adcb77060800000000000000
+      internalID: 6951232195855837473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-esq_7
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 10
+        width: 144
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92d7f78bb91b7940800000000000000
+      internalID: 5294854080134894235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

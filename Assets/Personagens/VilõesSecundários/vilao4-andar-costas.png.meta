@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 3d7bdd807934c38439db2cd8d7d8cee6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4445339215925577420
+    second: vilao4-andar-costas_0
+  - first:
+      213: -8473968564219843311
+    second: vilao4-andar-costas_1
+  - first:
+      213: 6101589988386302640
+    second: vilao4-andar-costas_2
+  - first:
+      213: 6707477935259372176
+    second: vilao4-andar-costas_3
+  - first:
+      213: 7837132128647932051
+    second: vilao4-andar-costas_4
+  - first:
+      213: -7723722520369356725
+    second: vilao4-andar-costas_5
+  - first:
+      213: 8867897255671790475
+    second: vilao4-andar-costas_6
+  - first:
+      213: 6908907602214847145
+    second: vilao4-andar-costas_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: vilao4-andar-costas_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 22
+        width: 214
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43974a8198bfe42c0800000000000000
+      internalID: -4445339215925577420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-costas_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 22
+        width: 203
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d69d3ec7a666a80800000000000000
+      internalID: -8473968564219843311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-costas_2
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 22
+        width: 197
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba68de44c33da450800000000000000
+      internalID: 6101589988386302640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-costas_3
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 22
+        width: 197
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ac7e5f4afb51d50800000000000000
+      internalID: 6707477935259372176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-costas_4
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 22
+        width: 197
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3986cd9e52613cc60800000000000000
+      internalID: 7837132128647932051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-costas_5
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 22
+        width: 203
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4023bd2a43dfc490800000000000000
+      internalID: -7723722520369356725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-costas_6
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 22
+        width: 199
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b7af4e199111b70800000000000000
+      internalID: 8867897255671790475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-costas_7
+      rect:
+        serializedVersion: 2
+        x: 2272
+        y: 22
+        width: 198
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a20308fbde51ef50800000000000000
+      internalID: 6908907602214847145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

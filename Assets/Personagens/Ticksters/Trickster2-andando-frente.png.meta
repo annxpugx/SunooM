@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 7137a73e54b8aae4e9e425d7e9fddeba
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7738704951326643981
+    second: Trickster2-andando-frente_0
+  - first:
+      213: 6272870199226406355
+    second: Trickster2-andando-frente_1
+  - first:
+      213: -5690633925913185381
+    second: Trickster2-andando-frente_2
+  - first:
+      213: -5223160108625890882
+    second: Trickster2-andando-frente_3
+  - first:
+      213: 1283633402661869023
+    second: Trickster2-andando-frente_4
+  - first:
+      213: 3804912040892178875
+    second: Trickster2-andando-frente_5
+  - first:
+      213: -3916162442314993592
+    second: Trickster2-andando-frente_6
+  - first:
+      213: 6956561201796271633
+    second: Trickster2-andando-frente_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Trickster2-andando-frente_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 12
+        width: 123
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f86e9229d89a9490800000000000000
+      internalID: -7738704951326643981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-frente_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 18
+        width: 123
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5160b0636bd0750800000000000000
+      internalID: 6272870199226406355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-frente_2
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 12
+        width: 123
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93782b389ec601b0800000000000000
+      internalID: -5690633925913185381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-frente_3
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 8
+        width: 117
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1fc500e8b9387b0800000000000000
+      internalID: -5223160108625890882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-frente_4
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 12
+        width: 123
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd59c7b57c160d110800000000000000
+      internalID: 1283633402661869023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-frente_5
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 18
+        width: 123
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb12cf68753cdc430800000000000000
+      internalID: 3804912040892178875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-frente_6
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 12
+        width: 123
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840b617e10ff6a9c0800000000000000
+      internalID: -3916162442314993592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-frente_7
+      rect:
+        serializedVersion: 2
+        x: 2262
+        y: 8
+        width: 123
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ec45b3e8baa8060800000000000000
+      internalID: 6956561201796271633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
