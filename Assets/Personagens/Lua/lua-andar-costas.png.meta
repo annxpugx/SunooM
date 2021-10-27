@@ -5,6 +5,27 @@ TextureImporter:
   - first:
       213: -1643713922454252408
     second: lua-andar-costas_0
+  - first:
+      213: -6980589886991807562
+    second: lua-andar-costas_1
+  - first:
+      213: 6468689018292353168
+    second: lua-andar-costas_2
+  - first:
+      213: 5939467669522926431
+    second: lua-andar-costas_3
+  - first:
+      213: 6893860551749679506
+    second: lua-andar-costas_4
+  - first:
+      213: 2112228986718390544
+    second: lua-andar-costas_5
+  - first:
+      213: -520451093734993634
+    second: lua-andar-costas_6
+  - first:
+      213: -3667190113055784761
+    second: lua-andar-costas_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,10 +118,10 @@ TextureImporter:
       name: lua-andar-costas_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2462
-        height: 269
+        x: 16
+        y: 21
+        width: 183
+        height: 238
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -110,6 +131,153 @@ TextureImporter:
       bones: []
       spriteID: 88410c375ea5039e0800000000000000
       internalID: -1643713922454252408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-costas_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 21
+        width: 184
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb4b278b76ff1f90800000000000000
+      internalID: -6980589886991807562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-costas_2
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 16
+        width: 177
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09839c9b36665c950800000000000000
+      internalID: 6468689018292353168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-costas_3
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 10
+        width: 173
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bc4d4706a3d6250800000000000000
+      internalID: 5939467669522926431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-costas_4
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 16
+        width: 178
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2993e1685a9ebaf50800000000000000
+      internalID: 6893860551749679506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-costas_5
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 21
+        width: 177
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01902a58215205d10800000000000000
+      internalID: 2112228986718390544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-costas_6
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 16
+        width: 172
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1156fadc7cf6c8f0800000000000000
+      internalID: -520451093734993634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lua-andar-costas_7
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 10
+        width: 162
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c04c7395068b1dc0800000000000000
+      internalID: -3667190113055784761
       vertices: []
       indices: 
       edges: []

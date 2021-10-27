@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: 459b91640f44f784d8f630abc22e67c7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6091748988559977503
+    second: vilao1-andar-costas_0
+  - first:
+      213: -6908906660327362159
+    second: vilao1-andar-costas_1
+  - first:
+      213: 2538575957272480374
+    second: vilao1-andar-costas_2
+  - first:
+      213: -5038546586020249393
+    second: vilao1-andar-costas_3
+  - first:
+      213: 780901530131623079
+    second: vilao1-andar-costas_4
+  - first:
+      213: 5425387544792571475
+    second: vilao1-andar-costas_5
+  - first:
+      213: 2362136141387995419
+    second: vilao1-andar-costas_6
+  - first:
+      213: -1498107523691612217
+    second: vilao1-andar-costas_7
+  - first:
+      213: 6036828726998938727
+    second: vilao1-andar-costas_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +68,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +102,210 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: vilao1-andar-costas_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 24
+        width: 75
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e399040292c57ba0800000000000000
+      internalID: -6091748988559977503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao1-andar-costas_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 24
+        width: 75
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1917bd45ff1ae10a0800000000000000
+      internalID: -6908906660327362159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao1-andar-costas_2
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 21
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ac2981265da3320800000000000000
+      internalID: 2538575957272480374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao1-andar-costas_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 19
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0810c439c731ab0800000000000000
+      internalID: -5038546586020249393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao1-andar-costas_4
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 21
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aced04edc156da00800000000000000
+      internalID: 780901530131623079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao1-andar-costas_5
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 24
+        width: 75
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e90302a39da4b40800000000000000
+      internalID: 5425387544792571475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao1-andar-costas_6
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 21
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b191b823e4ef7c020800000000000000
+      internalID: 2362136141387995419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao1-andar-costas_7
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 19
+        width: 72
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7750ff427a53be0800000000000000
+      internalID: -1498107523691612217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao1-andar-costas_8
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 21
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76435a22ebf17c350800000000000000
+      internalID: 6036828726998938727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
