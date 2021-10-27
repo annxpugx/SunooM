@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: e9bf50671dfcd7c4cbf66d99cf351dcd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1712370534939375734
+    second: sabio-andar-costas_0
+  - first:
+      213: -851862512003809246
+    second: sabio-andar-costas_1
+  - first:
+      213: -516796420299160304
+    second: sabio-andar-costas_2
+  - first:
+      213: 3787050953070591584
+    second: sabio-andar-costas_3
+  - first:
+      213: 6812733143926269778
+    second: sabio-andar-costas_4
+  - first:
+      213: 4889568585682729373
+    second: sabio-andar-costas_5
+  - first:
+      213: -2270658318277477988
+    second: sabio-andar-costas_6
+  - first:
+      213: 193476580489661285
+    second: sabio-andar-costas_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sabio-andar-costas_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 17
+        width: 153
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87c71d22107c38e0800000000000000
+      internalID: -1712370534939375734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-costas_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 17
+        width: 153
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2208a860f839d24f0800000000000000
+      internalID: -851862512003809246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-costas_2
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 13
+        width: 153
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01500e2d468f3d8f0800000000000000
+      internalID: -516796420299160304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-costas_3
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 8
+        width: 148
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eb314f6ce4e8430800000000000000
+      internalID: 3787050953070591584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-costas_4
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 13
+        width: 153
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2576141f2b0bb8e50800000000000000
+      internalID: 6812733143926269778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-costas_5
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 17
+        width: 153
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99378ef8bc3bd340800000000000000
+      internalID: 4889568585682729373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-costas_6
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 13
+        width: 152
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99f8cc3a400d70e0800000000000000
+      internalID: -2270658318277477988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sabio-andar-costas_7
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 8
+        width: 148
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b8174cced5fa200800000000000000
+      internalID: 193476580489661285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

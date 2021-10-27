@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: a4833e008c0f6ea44a2d58f165f6f5d6
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1275634392140519832
+    second: Trickster2-andando-esq_0
+  - first:
+      213: -8945251519048587221
+    second: Trickster2-andando-esq_1
+  - first:
+      213: 4742200015681599661
+    second: Trickster2-andando-esq_2
+  - first:
+      213: 8183003594306846614
+    second: Trickster2-andando-esq_3
+  - first:
+      213: -6043036577947046496
+    second: Trickster2-andando-esq_4
+  - first:
+      213: 5036040417296682499
+    second: Trickster2-andando-esq_5
+  - first:
+      213: 7941954794375714672
+    second: Trickster2-andando-esq_6
+  - first:
+      213: 3284897805553171580
+    second: Trickster2-andando-esq_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Trickster2-andando-esq_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 6
+        width: 104
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8999ec698b6f3b110800000000000000
+      internalID: 1275634392140519832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-esq_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 6
+        width: 102
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28e59c23251cd380800000000000000
+      internalID: -8945251519048587221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-esq_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 11
+        width: 103
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8bd8cf9cdafc140800000000000000
+      internalID: 4742200015681599661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-esq_3
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 11
+        width: 109
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f7762e96edf8170800000000000000
+      internalID: 8183003594306846614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-esq_4
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 6
+        width: 117
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad26ceef32d22ca0800000000000000
+      internalID: -6043036577947046496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-esq_5
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 6
+        width: 118
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e8a73d31c93e540800000000000000
+      internalID: 5036040417296682499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-esq_6
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 6
+        width: 118
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07799f4aecd773e60800000000000000
+      internalID: 7941954794375714672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trickster2-andando-esq_7
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 6
+        width: 108
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cf477662d469d20800000000000000
+      internalID: 3284897805553171580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

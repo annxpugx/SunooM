@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 87df7a39fcab363428e280aca9e1c6cc
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3412910993043574271
+    second: sombra-andar-dir_0
+  - first:
+      213: -2190262207868480903
+    second: sombra-andar-dir_1
+  - first:
+      213: -405817392971212547
+    second: sombra-andar-dir_2
+  - first:
+      213: 1050113872871709990
+    second: sombra-andar-dir_3
+  - first:
+      213: -7030634299498133209
+    second: sombra-andar-dir_4
+  - first:
+      213: 431525705834591049
+    second: sombra-andar-dir_5
+  - first:
+      213: -2221936778185535895
+    second: sombra-andar-dir_6
+  - first:
+      213: -7253862884525625426
+    second: sombra-andar-dir_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sombra-andar-dir_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 194
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102bc91c887e2a0d0800000000000000
+      internalID: -3412910993043574271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-dir_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 233
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972590f5020aa91e0800000000000000
+      internalID: -2190262207868480903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-dir_2
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 0
+        width: 241
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df896403b3f3e5af0800000000000000
+      internalID: -405817392971212547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-dir_3
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 19
+        width: 227
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d5a3ee001c29e00800000000000000
+      internalID: 1050113872871709990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-dir_4
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 19
+        width: 202
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7298cb0ca5b2e6e90800000000000000
+      internalID: -7030634299498133209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-dir_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 19
+        width: 167
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94378b7d7561df500800000000000000
+      internalID: 431525705834591049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-dir_6
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 19
+        width: 192
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e00e6c5481a21e0800000000000000
+      internalID: -2221936778185535895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sombra-andar-dir_7
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 19
+        width: 219
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafa57e932a155b90800000000000000
+      internalID: -7253862884525625426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

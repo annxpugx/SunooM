@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 192185e4c3603df4bac6ea04d21494f7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7135189748306988651
+    second: vilao4-andar-dir_0
+  - first:
+      213: -6123762326307729372
+    second: vilao4-andar-dir_1
+  - first:
+      213: 3542332224752262078
+    second: vilao4-andar-dir_2
+  - first:
+      213: -863849022671116737
+    second: vilao4-andar-dir_3
+  - first:
+      213: 623207075142274775
+    second: vilao4-andar-dir_4
+  - first:
+      213: -4739343355322667217
+    second: vilao4-andar-dir_5
+  - first:
+      213: -8551471868453314596
+    second: vilao4-andar-dir_6
+  - first:
+      213: 7540432051211811267
+    second: vilao4-andar-dir_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +99,189 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: vilao4-andar-dir_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 7
+        width: 233
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ec8d0b549450360800000000000000
+      internalID: 7135189748306988651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-dir_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 7
+        width: 163
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420128bfb96040ba0800000000000000
+      internalID: -6123762326307729372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-dir_2
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 12
+        width: 164
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb17cce364e82130800000000000000
+      internalID: 3542332224752262078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-dir_3
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 12
+        width: 193
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36ae1804edf204f0800000000000000
+      internalID: -863849022671116737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-dir_4
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 7
+        width: 224
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de8d5f688316a800800000000000000
+      internalID: 623207075142274775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-dir_5
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 7
+        width: 228
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f626514587a3eb0800000000000000
+      internalID: -4739343355322667217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-dir_6
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 7
+        width: 223
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf181ea4a1135980800000000000000
+      internalID: -8551471868453314596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vilao4-andar-dir_7
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 7
+        width: 193
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c93379effef4a860800000000000000
+      internalID: 7540432051211811267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
