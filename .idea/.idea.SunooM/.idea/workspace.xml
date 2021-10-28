@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9bf5e1f-b31a-47c0-b16f-2a23ba980f01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HandleSpawnMonster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/HandleSpawnMonster.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SunooM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SunooM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/initialScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/initialScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mazeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mazeScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstarPathfindingProject.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AstarPathfindingProject.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AstarPathfindingProjectEditor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AstarPathfindingProjectEditor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PackageToolsEditor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PackageToolsEditor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SunooM.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SunooM.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/puzzleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/puzzleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +28,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/HandleCompletePuzzle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandleSpawnMonster.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="203ByPmHkT68NVSON206P7vzUmX" />
@@ -87,7 +80,7 @@
       <updated>1635263650093</updated>
       <workItem from="1635263669510" duration="2590000" />
       <workItem from="1635304901050" duration="826000" />
-      <workItem from="1635361914746" duration="5845000" />
+      <workItem from="1635361914746" duration="8907000" />
     </task>
     <servers />
   </component>
