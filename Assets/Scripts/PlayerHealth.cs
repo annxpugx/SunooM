@@ -1,52 +1,40 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class PlayerVida : MonoBehaviour
+public class PlayerHealth : MonoBehaviour
 {
+    private int life = 5;
+    private Image[] _hearts;
 
-    private int life = 100;
-    public static PlayerVida jogador;
-    public HUDPlayer hud;
-
-
-    void Awake () {
-        jogador = this;
+    private void Start()
+    {
+        _hearts = GameObject.FindWithTag("hearts").GetComponentsInChildren<Image>();
     }
-
-    public int Vida{
-        get{
-            return life;
-        }
-        set{
-            life -= value;
-            hud.updateLife();
-        }
-    }
-
 
     public void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.CompareTag("Monster"))
+        if (other.gameObject.CompareTag("Monster"))
         {
             Monstro monster = other.gameObject.GetComponent(typeof(Monstro)) as Monstro;
-            if(monster.canTakeLife){
-                jogador.Vida = 25;
+            if (monster.canTakeLife)
+            {
+                Debug.Log("here");
+                _hearts[--life].enabled = false;
                 monster.canTakeLife = false;
                 other.gameObject.GetComponent<Renderer>().enabled = false;
                 other.gameObject.SetActive(false);
-            } 
+            }
         }
     }
 
     public void Update()
     {
-        if(Vida <= 0){
+        if (life == 0)
+        {
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
         }
-        
     }
 }

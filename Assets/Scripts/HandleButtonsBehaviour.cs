@@ -94,7 +94,7 @@ public class HandleButtonsBehaviour : MonoBehaviour
     private void LoadGame()
     {
         HideMenu();
-        SceneManager.LoadScene("NewScene");
+        SceneManager.LoadScene("initialScene");
     }
 
     private void SetMainMenuButtons()

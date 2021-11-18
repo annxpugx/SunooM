@@ -4,7 +4,5 @@ using UnityEngine;
 
 public class Monstro : MonoBehaviour
 {
-    // Start is called before the first frame update
     public bool canTakeLife = true;
-
 }

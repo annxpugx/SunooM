@@ -5,6 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - Monster
+  - main_menu_play_btn
+  - main_menu_quit_btn
+  - main_menu_volume_btn
+  - main_menu
+  - pause_menu_close_btn
+  - pause_menu_volume_btn
+  - pause_menu_restart_btn
+  - pause_menu
+  - pause_menu_resume_btn
+  - pause_menu_quit_btn
+  - hearts
   layers:
   - Default
   - TransparentFX
