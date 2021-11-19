@@ -17,12 +17,11 @@ public class ColisionSun : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(player.position, this.transform.position);
-        if(distance < 2){
+        if(distance < 3){
             canvas.SetActive(true);
         } else{
              canvas.SetActive(false);
         }
-
        
     }
 }

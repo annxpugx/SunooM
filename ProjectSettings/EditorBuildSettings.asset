@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/nightScene.unity
     guid: c308b0a6ef4756c4a854e1ff37b409a2
+  - enabled: 1
+    path: Assets/Scenes/fightScene.unity
+    guid: 2d8c820a0a7e1984b8f01a13ed62fde8
   m_configObjects: {}
