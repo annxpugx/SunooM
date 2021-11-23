@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
 {
     private int life = 5;
     private Image[] _hearts;
+    public bool canTakeDamageOnContact = true;
 
     private void Start()
     {
@@ -25,6 +26,24 @@ public class PlayerHealth : MonoBehaviour
                 monster.canTakeLife = false;
                 other.gameObject.GetComponent<Renderer>().enabled = false;
                 other.gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void OnCollisionEnter(Collision other)
+    {
+        if(!canTakeDamageOnContact) return;
+
+        if (other.gameObject.CompareTag("Monster"))
+        {
+            Monstro monster = other.gameObject.GetComponent(typeof(Monstro)) as Monstro;
+            if (monster.canTakeLife)
+            {
+                Debug.Log("here");
+                _hearts[--life].enabled = false;
+                // monster.canTakeLife = false;
+                // other.gameObject.GetComponent<Renderer>().enabled = false;
+                // other.gameObject.SetActive(false);
             }
         }
     }

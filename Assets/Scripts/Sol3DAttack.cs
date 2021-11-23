@@ -16,9 +16,6 @@ public class Sol3DAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.L))  
-        {  
-            animator.SetBool("IsAttacking", dir.magnitude > 0);
-        }  
+
     }
 }
