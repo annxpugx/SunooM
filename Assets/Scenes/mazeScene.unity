@@ -2434,7 +2434,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: OLAAAAAAAAAAAAA
+  m_Text: "TRICKSTER:\n\nSer\xE1 que voc\xEA \xE9 esperto o suficiente para encontrar
+    a sa\xEDda desse labirinto? Vamos ver! Ah, e tome cuidado com os obst\xE1culos
+    no caminho..."
 --- !u!222 &62565055
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -50995,6 +50997,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166f3e7537a6a0b4d9e51de467c7063f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canTakeDamageOnContact: 1
 --- !u!4 &1639026565 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5628018141983903106, guid: ef67ba864d1ecc042b5f4cf48455c0a6,
