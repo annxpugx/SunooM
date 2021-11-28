@@ -16,6 +16,7 @@ TagManager:
   - pause_menu_resume_btn
   - pause_menu_quit_btn
   - hearts
+  - scene
   layers:
   - Default
   - TransparentFX
