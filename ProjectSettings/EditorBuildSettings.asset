@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/fightScene.unity
     guid: 2d8c820a0a7e1984b8f01a13ed62fde8
+  - enabled: 1
+    path: Assets/Scenes/nightSceneFinal.unity
+    guid: eed97a860b8cb6a47aff7b5454bba313
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: fd47bfcd092e0e743810e4877f50a921
+  - enabled: 1
+    path: Assets/Scenes/initialStory.unity
+    guid: 20167cc78306b9342bab0b43452b3e90
   m_configObjects: {}
