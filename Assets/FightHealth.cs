@@ -38,7 +38,7 @@ public class FightHealth : MonoBehaviour
         enemyHealth -= damage;
         UpdateHearts(_enemyHearts, Math.Round(enemyHealth));
 
-        if (RemainingHearts(_enemyHearts) == 0) SceneManager.LoadScene("nightScene");
+        if (RemainingHearts(_enemyHearts) == 0) SceneManager.LoadScene("nightSceneFinal");
         
         return enemyHealth + damage;
     }
