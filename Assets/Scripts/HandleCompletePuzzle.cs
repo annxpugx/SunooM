@@ -23,6 +23,8 @@ public class HandleCompletePuzzle : MonoBehaviour
 
     void Update()
     {
+        if (_altar == null) return;
+
         if (Completed() && _altar.activated)
         {
             SceneManager.LoadScene(scene);

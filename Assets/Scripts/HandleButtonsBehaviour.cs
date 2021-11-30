@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -14,6 +15,9 @@ public class HandleButtonsBehaviour : MonoBehaviour
 
     private Dictionary<string, Button> _mainMenuButtons = new Dictionary<string, Button>();
     private Dictionary<string, Button> _pauseMenuButtons = new Dictionary<string, Button>();
+
+    [CanBeNull] public AudioSource audioSource;
+
     void Start()
     {
         LoadButtons();
@@ -32,6 +36,11 @@ public class HandleButtonsBehaviour : MonoBehaviour
     {
         Time.timeScale = Math.Abs(Time.timeScale - 1);
         ToggleMenu();
+
+        if (audioSource == null) return;
+
+        if(audioSource.isPlaying) audioSource.Pause();
+        else audioSource.UnPause();
     }
 
     private void ToggleMenu()
@@ -64,7 +73,6 @@ public class HandleButtonsBehaviour : MonoBehaviour
     private void ConfigureMainMenuButtons()
     {
         _mainMenuButtons["play"].onClick.AddListener(LoadGame);
-        _mainMenuButtons["volume"].onClick.AddListener(delegate { });
         _mainMenuButtons["quit"].onClick.AddListener(Application.Quit);
     }
 
@@ -81,27 +89,25 @@ public class HandleButtonsBehaviour : MonoBehaviour
             GoToMainMenu();
             TogglePaused();
         });
-        _pauseMenuButtons["volume"].onClick.AddListener(delegate { Debug.Log("here"); });
         _pauseMenuButtons["close"].onClick.AddListener(TogglePaused);
     }
 
     private void GoToMainMenu()
     {
         HideMenu();
-        SceneManager.LoadScene("menu");
+        SceneManager.LoadScene("Menu");
     }
 
     private void LoadGame()
     {
         HideMenu();
-        SceneManager.LoadScene("initialStory");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     private void SetMainMenuButtons()
     {
-        _mainMenuButtons["play"]     = GameObject.FindGameObjectWithTag("main_menu_play_btn").GetComponent<Button>();
-        _mainMenuButtons["volume"]   = GameObject.FindGameObjectWithTag("main_menu_volume_btn").GetComponent<Button>();
-        _mainMenuButtons["quit"]     = GameObject.FindGameObjectWithTag("main_menu_quit_btn").GetComponent<Button>();
+        _mainMenuButtons["play"] = GameObject.FindGameObjectWithTag("main_menu_play_btn").GetComponent<Button>();
+        _mainMenuButtons["quit"] = GameObject.FindGameObjectWithTag("main_menu_quit_btn").GetComponent<Button>();
     }
 
     private void SetPauseMenuButtons()
@@ -109,7 +115,6 @@ public class HandleButtonsBehaviour : MonoBehaviour
         _pauseMenuButtons["resume"]  = GameObject.FindGameObjectWithTag("pause_menu_resume_btn").GetComponent<Button>();
         _pauseMenuButtons["restart"] = GameObject.FindGameObjectWithTag("pause_menu_restart_btn").GetComponent<Button>();
         _pauseMenuButtons["quit"]    = GameObject.FindGameObjectWithTag("pause_menu_quit_btn").GetComponent<Button>();
-        _pauseMenuButtons["volume"]  = GameObject.FindGameObjectWithTag("pause_menu_volume_btn").GetComponent<Button>();
         _pauseMenuButtons["close"]   = GameObject.FindGameObjectWithTag("pause_menu_close_btn").GetComponent<Button>();
     }
 }

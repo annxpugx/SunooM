@@ -49,6 +49,8 @@
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\Monstro.cs" />
      <Compile Include="Assets\Rocks and Boulders 2\Shaders\RotateGameObject.cs" />
+     <Compile Include="Assets\Scripts\HandleButtonsBehaviour.cs" />
+     <Compile Include="Assets\Scripts\ColisionFinalScene.cs" />
      <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\CTI_Utils.cs" />
      <Compile Include="Assets\Cainos\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
      <Compile Include="Assets\ChooseAttack.cs" />
@@ -64,6 +66,7 @@
      <Compile Include="Assets\Scripts\HandleCompletePuzzle.cs" />
      <Compile Include="Assets\Scripts\PassStory.cs" />
      <Compile Include="Assets\Scripts\ColisionSun.cs" />
+     <Compile Include="Assets\GoToMenu.cs" />
      <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
      <None Include="Assets\MedievalTownExteriors\Readme.txt" />
