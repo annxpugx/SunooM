@@ -56,22 +56,22 @@ public class PlayerFightBehaviour : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.D) || dpad.xAxis.value == 1)
         {
-            transform.Translate(0.05f, 0f, 0f);
+            transform.Translate(0.1f, 0f, 0f);
         }
 
         if (Input.GetKey(KeyCode.A) || dpad.xAxis.value == -1)
         {
-            transform.Translate(-0.05f, 0f, 0f);
+            transform.Translate(-0.1f, 0f, 0f);
         }
 
         if (Input.GetKey(KeyCode.S) || dpad.yAxis.value == -1)
         {
-            transform.Translate(0f, 0f, -0.05f);
+            transform.Translate(0f, 0f, -0.1f);
         }
 
         if (Input.GetKey(KeyCode.W) || dpad.yAxis.value == 1)
         {
-            transform.Translate(0f, 0f, 0.05f);
+            transform.Translate(0f, 0f, 0.1f);
         }
 
         if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W) && dpad.yAxis.value == 0 && dpad.xAxis.value == 0)
