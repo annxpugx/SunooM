@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{719d051e-a9a3-d45d-07e9-9f166f85b011}</ProjectGuid>
+    <ProjectGuid>{eb862d59-83d3-cdeb-1d24-e259c811685a}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>SimpleInput.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -41,9 +41,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_DetailsEnum.cs" />
-     <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_ShaderGUI.cs" />
-     <Compile Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Scripts\Editor\CTI_AdvancedEdgeFluttering.cs" />
+     <Compile Include="Assets\Plugins\SimpleInput\Editor\MouseButtonInputDrawer.cs" />
+     <Compile Include="Assets\Plugins\SimpleInput\Editor\KeyInputDrawer.cs" />
+     <Compile Include="Assets\Plugins\SimpleInput\Editor\BaseInputDrawer.cs" />
+     <Compile Include="Assets\Plugins\SimpleInput\Editor\ButtonInputDrawer.cs" />
+     <Compile Include="Assets\Plugins\SimpleInput\Editor\AxisInputDrawer.cs" />
+     <None Include="Assets\Plugins\SimpleInput\Editor\SimpleInput.Editor.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -659,94 +662,23 @@
      <Reference Include="System.Xml.XPath.XDocument">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.TestRunner">
      <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TestRunner">
      <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Tilemap.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="VSSettingsProvider">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/VSSettingsProvider.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.UI">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.UI">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:/Users/leomv/Desktop/PUC/Deveres de Casa/4º Período/TI4/SunooM/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{8ac755be-58a8-12d7-0f84-b4f1403ca4b5}</Project>
-      <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{73f9404b-c86c-e97f-5da1-4d1069ae39c5}</Project>
-      <Name>AstarPathfindingProject</Name>
-    </ProjectReference>
     <ProjectReference Include="SimpleInput.Runtime.csproj">
       <Project>{a2cea57a-6105-51aa-cd6d-3ec93f15b85a}</Project>
       <Name>SimpleInput.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{a953c52c-0f46-e4a4-292f-822dd28d313a}</Project>
-      <Name>AstarPathfindingProjectEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{2380f7fb-a965-875c-68c7-b96e7c61c488}</Project>
-      <Name>PackageToolsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="SimpleInput.Editor.csproj">
-      <Project>{eb862d59-83d3-cdeb-1d24-e259c811685a}</Project>
-      <Name>SimpleInput.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

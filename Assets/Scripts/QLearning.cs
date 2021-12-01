@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 using Random = System.Random;
 
@@ -62,6 +63,7 @@ public class QLearning
         private Dictionary<int, int> attackSteps = new Dictionary<int, int>();
 
         private Transform _thisObject;
+        private int _healthStep = 5;
 
         public AttackMechanics(Transform thisObject)
         {
@@ -78,11 +80,13 @@ public class QLearning
                 HealthChange healthChange = performAttack(damage);
                 if (healthChange.noChange()) return;
 
+                _healthStep = Convert.ToInt32(Math.Round((objectHealth / FightHealth.MAX_HEALTH) * 5));
+                
                 var chars = new[]
                 {
                     new[] {'0', '0', '0', '0', '0', '0'},
-                    GetHealthMazeLayer(6, objectHealth),
-                    new[] {'F', '0', '0', '0', '0', '0'},
+                    GetMazeSecondLayer(),
+                    GetMazeThirdLayer()
                 };
                 string str = "";
                 foreach (var c in chars)
@@ -101,33 +105,38 @@ public class QLearning
 
         private void UpdateMetrics()
         {
-            // foreach (var keyValuePair in attackSteps)
-            // {
-            //     Debug.Log($"{keyValuePair.Value} -> {keyValuePair.Value}");
-            //     Debug.Log("---------------------");
-            // }
+            foreach (var keyValuePair in attackSteps)
+            {
+                Debug.Log($"{keyValuePair.Value} -> {keyValuePair.Value}");
+            }
+            Debug.Log("---------------------");
 
             foreach (var keyValuePair in attackSteps)
             {
                 bool reached = false;
                 switch (keyValuePair.Value)
                 {
-                    case 15:
+                    case 6:
                         damage = 0.75f;
                         reached = true;
                         cooldown = 2000;
                         break;
-                    case 14:
+                    case 7:
                         damage = 1.25f;
                         reached = true;
                         cooldown = 1650;
                         break;
-                    case 13:
+                    case 8:
+                        damage = 1.5f;
+                        reached = true;
+                        cooldown = 1500;
+                        break;
+                    case 9:
                         damage = 1.75f;
                         reached = true;
                         cooldown = 1500;
                         break;
-                    case 12:
+                    case 10:
                         damage = 2.25f;
                         reached = true;
                         cooldown = 1650;
@@ -143,19 +152,22 @@ public class QLearning
             }
         }
 
-        private char[] GetHealthMazeLayer(int size, float health)
+        private char[] GetMazeSecondLayer()
         {
-            char[] layer = new char[size];
-            int steps = Convert.ToInt32(Math.Round((health / FightHealth.MAX_HEALTH) * 6));
-
-            for (int i = 0; i < size; i++)
-            {
-                layer[i] = i < steps - 1 ? 'X' : '0';
-            }
+            char[] layer = qLearning._maze[1];
+            layer[_healthStep] = '0';
 
             return layer;
         }
-        
+
+        private char[] GetMazeThirdLayer()
+        {
+            char[] layer = { '0', '0', '0', '0', '0', '0' };
+            layer[_healthStep] = 'F';
+
+            return layer;
+        }
+
         public class HealthChange
         {
             public float Before;

@@ -1,7 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using SimpleInputNamespace;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerFightBehaviour : MonoBehaviour
@@ -23,13 +22,7 @@ public class PlayerFightBehaviour : MonoBehaviour
         _fightHealth = GameObject.FindWithTag("scene").GetComponent<FightHealth>();
 
         _ableToAttack = true;
-        attackBtn.onClick.AddListener(delegate{
-            if (_ableToAttack)
-            {
-                _animator.Play("WK_heavy_infantry_08_attack_B");
-                _attackMechanics.Attack(enemy, _fightHealth.playerHealth, attackDistance, PerformAttack);
-            }
-        });
+        attackBtn.onClick.AddListener(delegate { if (_ableToAttack) Attack(); });
     }
 
     void Update()
@@ -74,15 +67,18 @@ public class PlayerFightBehaviour : MonoBehaviour
             transform.Translate(0f, 0f, 0.05f);
         }
 
-        if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W) && dpad.yAxis.value == 0 && dpad.xAxis.value == 0)
+        if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) &&
+            !Input.GetKey(KeyCode.W) && dpad.yAxis.value == 0 && dpad.xAxis.value == 0)
         {
             transform.Translate(0f, 0f, 0f);
         }
 
-        if (Input.GetKey(KeyCode.Space) && _ableToAttack)
-        {
-            _animator.Play("WK_heavy_infantry_08_attack_B");
-            _attackMechanics.Attack(enemy, _fightHealth.playerHealth, attackDistance, PerformAttack);
-        }
+        if (Input.GetKey(KeyCode.Space) && _ableToAttack) Attack();
+    }
+
+    private void Attack()
+    {
+        _animator.Play("WK_heavy_infantry_08_attack_B");
+        _attackMechanics.Attack(enemy, _fightHealth.playerHealth, attackDistance, PerformAttack);
     }
 }

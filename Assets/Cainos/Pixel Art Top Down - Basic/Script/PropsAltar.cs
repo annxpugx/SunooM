@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
 //when something get into the alta, make the runes glow
 namespace Cainos.PixelArtTopDown_Basic
 {
-
     public class PropsAltar : MonoBehaviour
     {
         public List<SpriteRenderer> runes;
@@ -14,9 +12,8 @@ namespace Cainos.PixelArtTopDown_Basic
 
         private Color curColor;
         private Color targetColor;
-        
-        [DoNotSerialize]
-        public bool activated = false;
+
+        [DoNotSerialize] public bool activated = false;
 
         private void OnTriggerEnter2D(Collider2D other)
         {

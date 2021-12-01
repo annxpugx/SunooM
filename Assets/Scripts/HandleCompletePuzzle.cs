@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
 using Cainos.PixelArtTopDown_Basic;
-using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

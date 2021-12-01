@@ -6,30 +6,27 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public enum MenuType { MainMenu, PauseMenu }
+public enum MenuType
+{
+    MainMenu,
+    PauseMenu
+}
 
 public class HandleButtonsBehaviour : MonoBehaviour
 {
     public GameObject Menu;
     public MenuType Type;
-    public Button pause;
 
     private Dictionary<string, Button> _mainMenuButtons = new Dictionary<string, Button>();
     private Dictionary<string, Button> _pauseMenuButtons = new Dictionary<string, Button>();
 
+    [CanBeNull] public Button pauseButton;
     [CanBeNull] public AudioSource audioSource;
 
     void Start()
     {
         LoadButtons();
         HideMenu();
-        if(pause == null) return;
-        pause.onClick.AddListener(delegate{
-            if (Type == MenuType.PauseMenu)
-            {
-                TogglePaused();
-            }
-        });
     }
 
     private void Update()
@@ -45,10 +42,16 @@ public class HandleButtonsBehaviour : MonoBehaviour
         Time.timeScale = Math.Abs(Time.timeScale - 1);
         ToggleMenu();
 
-        if (audioSource == null) return;
+        if (audioSource != null)
+        {
+            if (audioSource.isPlaying) audioSource.Pause();
+            else audioSource.UnPause();
+        }
 
-        if(audioSource.isPlaying) audioSource.Pause();
-        else audioSource.UnPause();
+        if (pauseButton != null)
+        {
+            pauseButton.gameObject.SetActive(!pauseButton.gameObject.activeSelf);
+        }
     }
 
     private void ToggleMenu()
@@ -89,7 +92,7 @@ public class HandleButtonsBehaviour : MonoBehaviour
         _pauseMenuButtons["resume"].onClick.AddListener(TogglePaused);
         _pauseMenuButtons["restart"].onClick.AddListener(delegate
         {
-            LoadGame();
+            ReloadLevel();
             TogglePaused();
         });
         _pauseMenuButtons["quit"].onClick.AddListener(delegate
@@ -98,6 +101,9 @@ public class HandleButtonsBehaviour : MonoBehaviour
             TogglePaused();
         });
         _pauseMenuButtons["close"].onClick.AddListener(TogglePaused);
+        
+        if (pauseButton == null) return;
+        pauseButton.onClick.AddListener(delegate { if (Type == MenuType.PauseMenu) TogglePaused(); });
     }
 
     private void GoToMainMenu()
@@ -107,6 +113,12 @@ public class HandleButtonsBehaviour : MonoBehaviour
     }
 
     private void LoadGame()
+    {
+        HideMenu();
+        SceneManager.LoadScene("initialStory");
+    }
+
+    private void ReloadLevel()
     {
         HideMenu();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
@@ -120,9 +132,10 @@ public class HandleButtonsBehaviour : MonoBehaviour
 
     private void SetPauseMenuButtons()
     {
-        _pauseMenuButtons["resume"]  = GameObject.FindGameObjectWithTag("pause_menu_resume_btn").GetComponent<Button>();
-        _pauseMenuButtons["restart"] = GameObject.FindGameObjectWithTag("pause_menu_restart_btn").GetComponent<Button>();
-        _pauseMenuButtons["quit"]    = GameObject.FindGameObjectWithTag("pause_menu_quit_btn").GetComponent<Button>();
-        _pauseMenuButtons["close"]   = GameObject.FindGameObjectWithTag("pause_menu_close_btn").GetComponent<Button>();
+        _pauseMenuButtons["resume"] = GameObject.FindGameObjectWithTag("pause_menu_resume_btn").GetComponent<Button>();
+        _pauseMenuButtons["restart"] =
+            GameObject.FindGameObjectWithTag("pause_menu_restart_btn").GetComponent<Button>();
+        _pauseMenuButtons["quit"] = GameObject.FindGameObjectWithTag("pause_menu_quit_btn").GetComponent<Button>();
+        _pauseMenuButtons["close"] = GameObject.FindGameObjectWithTag("pause_menu_close_btn").GetComponent<Button>();
     }
 }
