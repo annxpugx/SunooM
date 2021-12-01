@@ -12,6 +12,7 @@ public class HandleButtonsBehaviour : MonoBehaviour
 {
     public GameObject Menu;
     public MenuType Type;
+    public Button pause;
 
     private Dictionary<string, Button> _mainMenuButtons = new Dictionary<string, Button>();
     private Dictionary<string, Button> _pauseMenuButtons = new Dictionary<string, Button>();
@@ -22,6 +23,13 @@ public class HandleButtonsBehaviour : MonoBehaviour
     {
         LoadButtons();
         HideMenu();
+        if(pause == null) return;
+        pause.onClick.AddListener(delegate{
+            if (Type == MenuType.PauseMenu)
+            {
+                TogglePaused();
+            }
+        });
     }
 
     private void Update()

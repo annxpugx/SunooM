@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using SimpleInputNamespace;
+using UnityEngine.UI;
 
 public class PlayerFightBehaviour : MonoBehaviour
 {
     public Transform enemy;
     public float attackDistance = 7.5f;
+    public Dpad dpad;
+    public Button attackBtn;
 
     private QLearning.AttackMechanics _attackMechanics;
     private Animator _animator;
@@ -19,6 +23,13 @@ public class PlayerFightBehaviour : MonoBehaviour
         _fightHealth = GameObject.FindWithTag("scene").GetComponent<FightHealth>();
 
         _ableToAttack = true;
+        attackBtn.onClick.AddListener(delegate{
+            if (_ableToAttack)
+            {
+                _animator.Play("WK_heavy_infantry_08_attack_B");
+                _attackMechanics.Attack(enemy, _fightHealth.playerHealth, attackDistance, PerformAttack);
+            }
+        });
     }
 
     void Update()
@@ -43,34 +54,33 @@ public class PlayerFightBehaviour : MonoBehaviour
 
     private void HandleInteraction()
     {
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) || dpad.xAxis.value == 1)
         {
             transform.Translate(0.05f, 0f, 0f);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || dpad.xAxis.value == -1)
         {
             transform.Translate(-0.05f, 0f, 0f);
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) || dpad.yAxis.value == -1)
         {
             transform.Translate(0f, 0f, -0.05f);
         }
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) || dpad.yAxis.value == 1)
         {
             transform.Translate(0f, 0f, 0.05f);
         }
 
-        if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W))
+        if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W) && dpad.yAxis.value == 0 && dpad.xAxis.value == 0)
         {
             transform.Translate(0f, 0f, 0f);
         }
 
         if (Input.GetKey(KeyCode.Space) && _ableToAttack)
         {
-            Debug.Log(_ableToAttack);
             _animator.Play("WK_heavy_infantry_08_attack_B");
             _attackMechanics.Attack(enemy, _fightHealth.playerHealth, attackDistance, PerformAttack);
         }
