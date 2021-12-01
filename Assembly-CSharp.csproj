@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\HandleCompletePuzzle.cs" />
      <Compile Include="Assets\Scripts\PassStory.cs" />
      <Compile Include="Assets\Scripts\ColisionSun.cs" />
+     <Compile Include="Assets\SelectSceneEasterEgg.cs" />
      <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array_301.shader" />
      <None Include="Assets\Conifers [BOTD]\Render Pipeline Support\Built-in RP\CTI Runtime Components\Shaders\CTI_LOD_Billboard_301.shader" />
      <None Include="Assets\MedievalTownExteriors\Readme.txt" />

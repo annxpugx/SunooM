@@ -13811,7 +13811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dpad: {fileID: 61667593}
-  speed: 4
+  speed: 5
 --- !u!4 &599653154 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5628018141983903106, guid: ef67ba864d1ecc042b5f4cf48455c0a6,

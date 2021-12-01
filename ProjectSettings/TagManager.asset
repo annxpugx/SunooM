@@ -17,6 +17,7 @@ TagManager:
   - pause_menu_quit_btn
   - hearts
   - scene
+  - easter_egg_activator
   layers:
   - Default
   - TransparentFX
