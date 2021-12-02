@@ -5267,7 +5267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Menu: {fileID: 1386082127}
   Type: 1
-  pauseButton: {fileID: 0}
+  pauseButton: {fileID: 1258411565}
   audioSource: {fileID: 1377266443}
 --- !u!1001 &318078619
 PrefabInstance:
